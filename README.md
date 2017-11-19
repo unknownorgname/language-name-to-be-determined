@@ -8,16 +8,16 @@ An in progress programming language that may one day be better than python itsel
 This is planned for what a normal class should look like:
 
 
-    cs SomeClass
+    class SomeClass:
         # a class that does something.
-        fn init(self)
+        fn init(self):
             # initialization function for the class.
             self.something = "something to print here."
 
-        fn printoutput(self)
+        fn printoutput(self):
             printout(self.something)
 
-        fn printerror(self)
+        fn printerror(self):
             # example function that prints self.something as an error.
             printerr(self.comething)
 
@@ -32,7 +32,7 @@ Sometimes async functions are needed. Nowadays people depend on them for deplayi
 
 Making an async function is planed to be strait forward as follows:
 
-    async fn somefunction()
+    async fn somefunction():
         # a function that does something.
         printout("this is a example async function.")
 
