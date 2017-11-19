@@ -19,7 +19,7 @@ This is planned for what a normal class should look like:
 
         fn printerror(self):
             # example function that prints self.something as an error.
-            printerr(self.comething)
+            printerr(self.something)
 
     obj = SomeClass()
     obj.printout()
