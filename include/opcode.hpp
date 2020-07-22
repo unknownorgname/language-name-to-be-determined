@@ -3,8 +3,12 @@
 */
 
 #pragma once
-#define OP_FUNCTION 0
-#define OP_ClASS 1
-#define OP_ASYNC_FUNCTION 2
-#define OP_WHILE 3
-#define OP_FOR 4
+
+typedef struct
+{
+  Function = 0;
+  Class = 1;
+  Async_Function = 2;
+  While = 3;
+  For = 4;
+} Opcode_t;
